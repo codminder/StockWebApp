@@ -1,13 +1,13 @@
-using System.ComponentModel.DataAnnotations.Schema
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebApp.Models
+namespace WebApp.Models;
 
 public class Client 
 {
-  public int id {get; set;}   
-  public string required firstName {get; set;}
-  public string required lastName {get; set;}
-  public string required street {get; set;}
-  public string required postalCode {get; set;}
-  public int required appartmentNumber {get; set;}
+  public int Id {get; set;}   
+  public required string  FirstName {get; set;}
+  public required string  LastName {get; set;}
+  public required string  Street {get; set;}
+  public required string  PostalCode {get; set;}
+  public required int AppartmentNumber {get; set;}
 }
